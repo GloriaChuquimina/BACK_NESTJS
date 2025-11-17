@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+.tmp/
+temp/
+*.log
+
+# Environment
+.env
+.env.*.local
+.env.local
+
+# TypeORM
+ormconfig*.json
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.build.tsbuildinfo
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# npm
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Docker (si usas)
+docker-compose.override.yml
+*.pid
+
+# Coverage (si usas tests)
+cover
